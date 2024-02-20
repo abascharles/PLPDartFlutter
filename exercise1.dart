@@ -7,5 +7,5 @@ void main() {
   String? name = stdin.readLineSync();
 
   print("Enter your age in mubers:");
-  int? age = tryParse(input!);
+  int? age = tryParse();
 }
