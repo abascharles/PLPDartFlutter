@@ -46,4 +46,9 @@ void main() {
   cars.forEach((item) {
     print(item); //printing a item
   });
+
+// Arrow functions
+// returnType functionName(parameters) => expressions;
+
+  int increaseNumber(int x) => x + 1;
 }
