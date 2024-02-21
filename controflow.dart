@@ -54,6 +54,27 @@ void main() {
     }
     print(global);
     print(local);
-    print(insideIf); //Not allowed
+    // print(insideIf); //Not allowed
   }
+// Tenary operator
+
+  //Let’s take an example of telling a student whether their exam score is passing or not. Write an if-else statement to achieve this:
+
+  // No tenary operator
+
+  const score = 83;
+  if (score >= 60) {
+    message = 'You have passed';
+  } else {
+    message = 'You have failed';
+  }
+
+  // Using tenary operator
+  const message = (score >= 60) ? 'You passed' : 'You failed';
+
+  /*  To read and practice
+  Switch statement
+  Loops - for, while, do while
+  
+  */
 }
