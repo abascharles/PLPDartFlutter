@@ -15,7 +15,7 @@ void main() {
     statement(s);
   }
 
-  break;
+  break; - uses to exit the code at the point the condition is met.
 
 }
 
