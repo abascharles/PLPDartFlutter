@@ -1,4 +1,4 @@
-// hiding data within a library (collection of fuctnctions and classes) preventing it from outside factors. It helps you control a program and prevent it from becoming too complicated.
+// hiding data within a library(file) (collection of fuctnctions and classes  ) preventing it from outside factors. It helps you control a program and prevent it from becoming too complicated.
 
 //_ = private in dart
 
