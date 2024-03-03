@@ -18,3 +18,7 @@ void main() {
   var p = Person("John", "Doe");
   print(p.fullName);
 }
+
+
+//  String get name => this._name!; this arrow replaces return.
+// String get name => this._name!;
