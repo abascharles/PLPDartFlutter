@@ -4,18 +4,17 @@
 }*/
 
 class Person {
-  // properties
-  String? fName;
-  String? lName;
+  String? firstName;
+  String? lastname;
 
-// Constructer
-  Person(this.fName, this.lName);
+// constructor
+  Person(this.firstName, this.lastname);
 
-  // getter
-  String get fullName => '$fName $lName';
+// getter
+  String get fullName => '$firstName $lastname';
 }
 
 void main() {
-  var p = Person('John', 'Doe');
+  var p = Person("John", "Doe");
   print(p.fullName);
 }
