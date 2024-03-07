@@ -28,7 +28,7 @@ void main() {
   print("Enter your last name:");
   String? lName = stdin.readLineSync();
 
-  print("Ener total bill amount:");
+  print("Enter total bill amount:");
   int? bill = int.parse(stdin.readLineSync()!);
 
   print("Hey $fName $lName, Your total bill is $bill");
