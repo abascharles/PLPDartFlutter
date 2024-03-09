@@ -10,3 +10,6 @@ void main() {
 
   footballplayers.forEach((names) => print(names));
 }
+
+
+// To check anonymous functions first
