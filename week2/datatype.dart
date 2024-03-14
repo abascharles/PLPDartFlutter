@@ -58,9 +58,9 @@ void main() {
 
 // How can we pass the identifiers
 
-Map<String, int> ages = {
-  "Alice":30,
-  "james":28,
-}
+// Map<String, int> ages = {
+//   "Alice":30,
+//   "james":28,
+// }
 
-print(ages)
+// print(ages);
