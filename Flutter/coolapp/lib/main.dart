@@ -11,12 +11,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text("My App")),
-        body: Center(
-          child: Container(
-            margin: const EdgeInsets.all(100),
-            child: const Text("Hi Mom 👋"),
-          ),
+        appBar: AppBar(
+          backgroundColor: Colors.greenAccent,
+          title: const Text("Flutter is fun"),
+        ),
+
+        body: Column(
+          children: const [
+            Icon(Icons.backpack),
+            Icon(Icons.leaderboard),
+            Icon(Icons.person),
+          ],
         ),
       ),
     );
