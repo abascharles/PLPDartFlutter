@@ -12,10 +12,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text("My App")),
-        body: Container(
-          child: const Text("Hi Mom 👋"),
-          margin: const EdgeInsets.all(10),
-          padding: const EdgeInsets.all(10),
+        body: Center(
+          child: Container(
+            margin: const EdgeInsets.all(100),
+            child: const Text("Hi Mom 👋"),
+          ),
         ),
       ),
     );
