@@ -25,6 +25,26 @@ class MyApp extends StatelessWidget {
             Icon(Icons.person),
           ],
         ),
+
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add),
+          onPressed: () => print("Pressed"),
+        ),
+
+        bottomNavigationBar: BottomNavigationBar(
+          items: const [
+            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+
+            BottomNavigationBarItem(
+              icon: Icon(Icons.business),
+              label: 'Business',
+            ),
+
+            BottomNavigationBarItem(icon: Icon(Icons.school), label: 'School'),
+          ],
+        ),
+
+        drawer: Drawer(child: Text("Yow")),
       ),
     );
   }
